@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Humedal Inteligente - Lago de Maracaibo</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🌿 Humedal Inteligente - Lago de Maracaibo</h1>
+    <p>Monitoreo en tiempo real de calidad del agua</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Estado del Sistema</h2>
+      <div id="estado" class="estado-bueno">✅ Sistema operativo</div>
+    </section>
+
+    <section class="graficos">
+      <canvas id="phChart"></canvas>
+      <canvas id="tempChart"></canvas>
+      <canvas id="nutrientesChart"></canvas>
+    </section>
+
+    <section class="alertas">
+      <h3>Alertas</h3>
+      <ul id="listaAlertas"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
