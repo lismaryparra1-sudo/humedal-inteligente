@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4fff4;
+  color: #333;
+}
+
+header {
+  background-color: #2e7d32;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+}
+
+.panel, .graficos, .alertas {
+  margin-bottom: 2rem;
+}
+
+.estado-bueno {
+  color: green;
+  font-weight: bold;
+}
+
+.estado-advertencia {
+  color: orange;
+  font-weight: bold;
+}
+
+.estado-peligro {
+  color: red;
+  font-weight: bold;
+}
+
+canvas {
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
